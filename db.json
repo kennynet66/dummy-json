@@ -1,0 +1,85 @@
+{
+  "schools": {
+    "schools": [
+      {
+        "id": 1,
+        "schoolName": "School_1",
+        "fullName": "John Doe",
+        "email": "johndoe@gmail.com",
+        "phoneNumber": "0712345678",
+        "county": 1,
+        "designation": 1,
+        "collections": 4000,
+        "isBounced": true,
+        "type": "primary"
+      },
+      {
+        "id": 2,
+        "schoolName": "School_2",
+        "fullName": "Jane Doe",
+        "email": "janedoe@gmail.com",
+        "county": 2,
+        "phoneNumber": "0712345678",
+        "designation": 2,
+        "collections": 5000,
+        "isBounced": false,
+        "type": "secondary"
+      },
+      {
+        "id": 3,
+        "schoolName": "School_3",
+        "fullName": "James Doe",
+        "email": "jamesdoe@gmail.com",
+        "county": 2,
+        "phoneNumber": "0712345678",
+        "designation": 2,
+        "collections": 3000,
+        "isBounced": false,
+        "type": "IGCSE"
+      },
+      {
+        "id": 4,
+        "schoolName": "School_4",
+        "fullName": "Harper Doe",
+        "email": "jamesdoe@gmail.com",
+        "county": 2,
+        "phoneNumber": "0712345678",
+        "designation": 2,
+        "collections": 2000,
+        "isBounced": false,
+        "type": "IGCSE"
+      }
+    ]
+  },
+  "designations": [
+    {
+      "id": 1,
+      "designationName": "Principal"
+    },
+    {
+      "id": 2,
+      "designationName": "Deputy Principal"
+    }
+  ],
+  "counties": [
+    {
+      "id": 1,
+      "countyName": "Nyeri"
+    },
+    {
+      "id": 2,
+      "countyName": "Nairobi"
+    }
+  ],
+  "schoolType": [
+    {
+      "type": "primary"
+    },
+    {
+      "type": "secondary"
+    },
+    {
+      "type": "IGCSE"
+    }
+  ]
+}
